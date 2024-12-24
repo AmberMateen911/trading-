@@ -28,28 +28,15 @@
 .hero-content a h1,
 .view-btn {
   animation: slideIn 1s ease-in-out;
-  animation-duration: 1s;
+  animation-duration: 1.6s;
   animation-delay: 0.3s;
   margin-bottom: 0;
 }
 
 .hero-content a .entertain{
-  animation: slideIn 1s ease-out;
-  animation-duration: 1s;
-  animation-delay: 0.3s;
   margin-bottom: 30px;
 }
 
-@keyframes slideIn {
-  0% {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 
 .view-btn {
   height: 20px;
@@ -58,7 +45,7 @@
   padding:15px;
   text-align: center;
   align-content: center;
-  background-color: rgb(226, 102, 61);
+  background-color: rgba(226, 102, 61, 0.116);
   border: 1px solid rgb(241, 114, 46);
   border-radius: 50px;
   font-weight: 700;
@@ -67,7 +54,7 @@
 .view-btn:hover {
   background-color: rgb(234, 91, 12);
   border: 1px solid rgb(249, 213, 200);
-  transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in-out;
 }
 
 /*SUBSCRIPTION*/

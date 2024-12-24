@@ -12,13 +12,14 @@
 
     <link rel="stylesheet" href="assets\css\style.css">
     <link rel="stylesheet" href="assets\css\global.css">
+    <link rel="stylesheet" href="assets\css\effects.css">
     <link rel="stylesheet" href="assets\css\responsive.css">
 </head>
 
 <body>
 
     <!--HEDAER-->
-   <?php include_once "component/header.php";?>
+   <?php include_once "./component/header.php";?>
 
     <main>
         <!--HERO SECTION-->
@@ -36,7 +37,7 @@
                     <h1 class="san-serif text-white entertain">D ENTERTAINMENT</h1>
                 </a>
 
-                <a href="" class="view-btn text-white font-16 san-serif">VIEW MORE</a>
+                <a href="dauto.php" class="view-btn text-white font-16 san-serif">VIEW MORE</a>
             </div>
         </section>
 
@@ -108,7 +109,7 @@
     </main>
 
    <!--FOOTER-->
-   <?php include_once "component/footer.php";?>
+   <?php include_once "./component/footer.php";?>
 
     <script src="assets\js\style.js"></script>
 </body>
