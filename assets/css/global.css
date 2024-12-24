@@ -1,0 +1,81 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+/*FONT FAMILY*/
+
+.san-serif {
+  font-family: sans-serif;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+/*FONT SIZES*/
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3{
+  font-size: 3em;
+}
+.font-16 {
+  font-size: 1rem;
+}
+
+.font-18 {
+  font-size: 1.2em;
+}
+
+.font-28 {
+  font-size: 1.7em;
+}
+/*FONT COLORS*/
+
+.text-white {
+  color: white;
+}
+.text-black {
+  color: rgb(20, 20, 20);
+}
+
+.text-orange {
+  color: rgb(234, 91, 12);
+}
+
+.text-grey {
+  color: rgb(207, 207, 207);
+}
+
+.dark-grey{
+  color: rgb(93, 93, 93);
+}
+
+
+
+
