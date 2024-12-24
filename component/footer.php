@@ -39,13 +39,13 @@
                     <h3 class="san-serif text-white font-28">Useful Links</h3>
                     <li class="f-list-items"><a href="" class="text-grey font-18 san-serif">D Auto</a></li>
                     <li class="f-list-items"><a href="" class="text-grey font-18 san-serif">D Computer</a></li>
-                    <li class="f-list-items"><a href="" class="text-grey font-18 san-serif">D Entertain</a></li>
+                    <li class="f-list-items"><a href="" class="text-grey font-18 san-serif">D Entertainment</a></li>
                 </ul>
 
                 <ul class="footer-list no-border">
                     <h3 class="san-serif text-white font-28">We Accept:</h3>
                     <li class="f-list-items"><a href="" class="text-grey font-18 san-serif">Join Our Telegram Channel</a></li>
-                    <li class="f-list-items "><img src="assets\images\payment-card.svg" alt=""></li>
+                    <li class="f-list-items "><img src="assets\images\index\payment-card.svg" alt=""></li>
                 </ul>
 
             </div>

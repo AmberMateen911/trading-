@@ -1,5 +1,8 @@
 
 /*HERO-SECTION*/
+.hero{
+  background-image: url(./assets/images/index/bannerauto.png);
+}
 .background {
   background-size: cover;
   background-position: center;
@@ -18,6 +21,7 @@
 
 .hero-content a h1 {
   line-height: 1;
+  text-shadow: 0 -2px 3px rgb(195, 195, 195);
 }
 
 .hero-content a h1:hover {

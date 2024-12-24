@@ -23,7 +23,7 @@
 
     <main>
         <!--HERO SECTION-->
-        <section class="background">
+        <section class= "hero-bg background">
             <div class="hero-content flex-container container">
                 <a href="">
                     <h1 class="san-serif text-white auto">D AUTO</h1>

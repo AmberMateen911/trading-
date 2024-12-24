@@ -1,11 +1,14 @@
-.auto-background{
-    background-image: url(../images/banner/d_auto.png);
-    height: 90vh;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+.d-auto{
+        background-image: url(../images/banner/d_auto.png);
 }
 
+.dcomputer{
+    background-image: url(../images/banner/d_computer.jpg);
+}
+
+.d-entertain {
+    background-image: url(../images/banner/d_entertainment.png);
+}
 .auto-content{
     align-items: center;
     height: inherit;
@@ -16,6 +19,7 @@
     animation: slideIn 1s ease-in-out;
     animation-duration: 1s;
     animation-delay: 0.3s;
+    text-shadow: 0 2px 5px rgb(0, 0, 0);
 }
 
 /* AUTO-PRODUCTS */

@@ -40,12 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   const images = [
-    './assets/images/bannerauto.png',
-    './assets/images/computer-bg.png',
-    './assets/images/entertainment-bg.png'
+    './assets/images/index/bannerauto.png',
+    './assets/images/index/computer-bg.png',
+    './assets/images/index/entertainment-bg.png'
   ];
 
-  const heroSection = document.querySelector('.background');
+  const heroSection = document.querySelector('.hero-bg');
   let currentIndex = 0;
 
   function changeBackground() {

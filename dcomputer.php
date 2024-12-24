@@ -16,9 +16,9 @@
     <?php include_once "./component/header.php"; ?>
 
     <main>
-        <section class="d-auto background ">
+        <section class="dcomputer background ">
             <div class="auto-content container flex-container">
-                <h1 class="text-white san-serif heading ">D AUTO</h1>
+                <h1 class="text-white san-serif heading ">D COMPUTER</h1>
             </div>
         </section>
 
