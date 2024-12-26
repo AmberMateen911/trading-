@@ -1,53 +1,13 @@
+/*-----RESPOSIVE HEADER-----*/
 @media (min-width: 801px) and (max-width: 1050px) {
-
-  .font-16, 
-  .font-18,
-  .font-28 {
-    font-size: 1rem;
+  .menu .menu-item {
+    padding: 5px;
   }
-  h1 {
-    font-size: 3em;
-  }
-
-  .hero-content a h1 {
-    line-height: 1;
-  }
-
-  .hero-content {
-    padding-left: 8%;
-  }
-
-  .background {
-    height: 90vh;
-  }
-
-  .box {
-    width: 27%;
-}
 }
 
 @media (min-width: 601px) and (max-width: 800px) {
-  /*GLOBAL-FONT-SETTING */
-  .font-16 {
-    font-size: 0.6em;
-  }
-  .font-18,
-  .font-28 {
-    font-size: 1rem;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-  h2{
-    font-size: 1.6em;
-  }
-  h3{
-    font-size: 1.5em;
-  }
-
   .nav-bar {
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .nav-bar #logo {
@@ -57,19 +17,68 @@
     padding: 4px;
     margin: 0 2px;
   }
-  .view-btn {
-    width: 95px;
-    padding: 7px;
-  }
+}
 
-  .box {
-    width: 25%;
+@media (max-width: 600px) {
+  .menu .menu-item {
+    padding: 5px;
+    margin: 0 2px;
   }
+}
 
+@media (min-width: 300px) and (max-width: 450px){
+  .header{
+    padding: 5px;
+  }
+  .nav-bar {
+      height: 30px;
+      justify-content: center;
+    }
+    .menu .menu-item {
+      padding: 3px;
+      margin: 0 2px;
+    }
+    .nav-bar #logo {
+      width: 40px;
+    }
+  
+}
+
+/*-----INDEX PAGE-----*/
+@media (min-width: 1050px) and (max-width: 1400px) {
+  .hero-content {
+    padding-left: 8%;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1050px) {
   /*HERO SECTION*/
-
   .background {
-    height: 45vh;
+    height: 70vh;
+  }
+
+  .hero-content {
+    padding-left: 8%;
+  }
+
+  .hero-content a .entertain {
+    margin-bottom: 20px;
+  }
+
+  /*SUBCRIPTION*/
+  .offer .box {
+    padding: 10px;
+  }
+
+  .price h3 {
+    margin: 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  /*HERO SECTION*/
+  .background {
+    height: 50vh;
     padding: 10px;
   }
   .hero-content {
@@ -80,50 +89,35 @@
     line-height: 1.5;
   }
 
-  /*FOOTER*/
-  .footer-list {
-    padding-left: 10px;
+  .hero-content a .entertain {
+    margin-bottom: 15px;
   }
 
-  .footer-content {
-    flex-direction: column;
+  .view-btn {
+    height: 30px;
+    width: 100px;
   }
 
-  .footer-content #f-logo {
-    align-self: flex-start;
+  /*SUBCRIPTION*/
+  .offer .box {
+    width: 23%;
+    padding: 15px;
   }
-  .copy-rt {
-    flex-direction: column;
+
+  .offer .box .price {
+    padding: 5px;
+  }
+
+  .offer .box .price h3 {
+    margin-bottom: 0;
+  }
+
+  .offer .box .icon {
+    font-size: 1.5em;
   }
 }
 
 @media (max-width: 600px) {
-  /*GLOBAL-FONT-SETTING */
-  .font-16 {
-    font-size: 0.6em;
-  }
-  .font-18,
-  .font-28 {
-    font-size: 0.8rem;
-  }
-
-  h1 {
-    font-size: 1.7em;
-  }
-  h2 {
-    font-size: 1.3em;
-  }
- 
-
-  /*NAVIGATION-BAR*/
-  .nav-bar #logo {
-    width: 20%;
-  }
-  .menu .menu-item {
-    padding: 3px;
-    margin: 0 2px;
-  }
-
   /*HERO SECTION*/
 
   .background {
@@ -139,137 +133,52 @@
     margin-bottom: 15px;
   }
   .view-btn {
+    height: 35px;
     width: 100px;
-    padding: 6px;
   }
   .hero-content {
     padding-left: 20px;
   }
 
+  /*SUBCRIPTION*/
   .offer {
     padding: 10px;
     margin: 30px 0;
     flex-wrap: wrap;
   }
-  .price {
+  .offer .box .price {
     padding: 10px;
   }
 
   .price h3 {
     margin-top: 0;
   }
-  .box {
-    width: 50%;
-    padding: 30px 10px;
-  }
-  .footer-content {
-    flex-direction: column;
-  }
-  .footer-content #f-logo {
-    width: 30%;
-    align-self: flex-start;
+  .offer .box {
+    width: 35%;
+    padding: 10px;
   }
 
-  .footer-list {
-    margin-bottom: 10px;
-    padding-left: 0;
-    border-bottom: 1px solid #6d6c6c;
-    padding-bottom: 8px;
-    gap: 10px;
-    margin: 0;
-  }
-
-  footer .fooetr-bg {
-    padding: 20px 30px;
-  }
-  .copy-rt {
-    flex-direction: column;
-  }
-  /*STYLE*/
-  .no-border {
-    border: none;
-  }
-}
-
-@media (max-width: 500px) {
-  /*GLOBAL-FONT-SETTING */
-  .font-16,
-  .font-18,
-  .font-28 {
-    font-size: 0.6rem;
-  }
-
-  h2 {
-    font-size: 1.3em;
-  }
-
-  h3{
-    font-size: 1.2em;
-  }
-}
-@media (min-width: 300px) and (max-width: 400px) {
-  /*GLOBAL-FONT-SETTING */
-  .font-16,
-  .font-18,
-  .font-28 {
-    font-size: 0.5rem;
-  }
-
-  h1 {
+  .offer .box .icon {
     font-size: 1.5em;
   }
-  h2 {
-    font-size: 1.3em;
-  }
+}
 
-  h3{
-    font-size: 1.2em;
-  }
- 
-
-  /*NAVIGATION-BAR*/
-  .nav-bar {
-    height: 30px;
-  }
-  .menu .menu-item {
-    padding: 3px;
-    margin: 0 2px;
-  }
-  #logo {
-    width: 15%;
-  }
-  /*HERO SECTION*/
-
-  .background {
+@media (min-width: 300px) and (max-width: 450px) { 
+.background {
     background-size: cover;
     height: 40vh;
   }
 
-  /*SUBSCRIPTION*/
-  .box {
-    width: 70%;
+/*SUBSCRIPTION*/
+.offer .box {
+    width: 50%;
     padding: 25px 10px;
   }
-  /*FOOTER*/
+/*FOOTER*/
 
-  .f-background {
-    padding: 10px;
-  }
 
-  .footer-content {
-    flex-direction: column;
-  }
-
-  .footer-content #f-logo {
-    width: 45%;
-    margin-bottom: 30px;
-    align-self: flex-start;
-  }
-
-  .copy-rt {
-    flex-direction: column;
-  }
 }
+
 
 @media (max-width: 299px) {
   .font-16,
@@ -301,4 +210,4 @@
     width: 80%;
 
   }
-}
+} */
