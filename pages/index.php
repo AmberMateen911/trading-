@@ -10,16 +10,16 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/png" href="">
 
-    <link rel="stylesheet" href="assets\css\style.css">
-    <link rel="stylesheet" href="assets\css\global.css">
-    <link rel="stylesheet" href="assets\css\responsive.css">
+    <link rel="stylesheet" href="..\assets\css\style.css">
+    <link rel="stylesheet" href="..\assets\css\global.css">
+    <link rel="stylesheet" href="..\assets\css\responsive.css">
 
 </head>
 
 <body>
 
     <!--HEDAER-->
-    <?php include_once "./component/header.php"; ?>
+    <?php include_once "../include/header.php"; ?>
 
     <main>
         <!--HERO SECTION-->
@@ -49,7 +49,7 @@
                 of Your Favorite Channels, Anytime, Anywhere!</p>
 
             <!--PACAKGE-OFFER-BOXES-->
-            <div class="offer flex-container">
+            <div class="package-container flex-container">
                 <div class="box">
                     <i class="fa-solid fa-tv icon text-orange"></i>
                     <p class="san-serif font-16">One Device</p>
@@ -110,9 +110,9 @@
     </main>
 
     <!--FOOTER-->
-    <?php include_once "./component/footer.php"; ?>
+    <?php include_once "../include/footer.php"; ?>
 
-    <script src="assets\js\style.js"></script>
+    <script src="..\assets\js\style.js"></script>
 </body>
 
 </html>

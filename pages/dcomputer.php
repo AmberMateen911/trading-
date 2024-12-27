@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D AUTO</title>
-    <link rel="stylesheet" href="assets\css\global.css">
-    <link rel="stylesheet" href="assets\css\style.css">
+   <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
 
     <!-- HEADRE -->
-    <?php include_once "./component/header.php"; ?>
+    <?php include_once "../include/header.php"; ?>
 
     <main>
-        <section class="d-entertain background ">
+        <section class="dcomputer background ">
             <div class="product-heading  container flex-container">
-                <h1 class="text-white san-serif heading ">D ENTERTAINMENT</h1>
+                <h1 class="text-white san-serif heading ">D COMPUTER</h1>
             </div>
         </section>
 
@@ -28,7 +28,7 @@
 
             <div class="product-container flex-container">
                 <div class="image-box">
-                    <img src="assets\images\d_entertain\broad_link_samrtTV.jfif" alt="">
+                    <img src="..\assets\images\d_computer\grenen_keyboard.jpg" alt="">
                     <div class="box-content">
                         <h4 class="product-name san-serif">Product Name</h4>
                         <p class="product-price text-orange san-serif">PKR 7,500,00</p>
@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="image-box">
-                    <img src="assets\images\d_entertain\collection.jfif" alt="">
+                    <img src="..\assets\images\d_computer\keybord.jfif" alt="">
                     <div class="box-content">
                         <h4 class="product-name san-serif">Product Name</h4>
                         <p class="product-price text-orange san-serif">PKR 7,500,00</p>
@@ -45,7 +45,7 @@
                 </div>
 
                 <div class="image-box">
-                    <img src="assets\images\d_entertain\jeckery.jfif" alt="">
+                    <img src="..\assets\images\d_computer\laptop.jfif" alt="">
                     <div class="box-content">
                         <h4 class="product-name san-serif">Product Name</h4>
                         <p class="product-price text-orange san-serif">PKR 7,500,00</p>
@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="image-box">
-                    <img src="assets\images\d_entertain\media_tek.jfif" alt="">
+                    <img src="..\assets\images\d_computer\mouse_keyboard.jfif" alt="">
                     <div class="box-content">
                         <h4 class="product-name san-serif">Product Name</h4>
                         <p class="product-price text-orange san-serif">PKR 7,500,00</p>
@@ -61,7 +61,7 @@
                 </div>
 
                 <div class="image-box">
-                    <img src="assets\images\d_entertain\projector.jfif" alt="">
+                    <img src="..\assets\images\d_computer\mouse.jfif" alt="">
                     <div class="box-content">
                         <h4 class="product-name san-serif">Product Name</h4>
                         <p class="product-price text-orange san-serif">PKR 7,500,00</p>
@@ -69,7 +69,7 @@
                 </div>
 
                 <div class="image-box">
-                    <img src="assets\images\d_entertain\samrtTV.jfif" alt="">
+                    <img src="..\assets\images\d_computer\simple_mouse.jfif" alt="">
                     <div class="box-content">
                         <h4 class="product-name san-serif">Product Name</h4>
                         <p class="product-price text-orange san-serif">PKR 7,500,00</p>
@@ -77,16 +77,23 @@
                 </div>
 
                 <div class="image-box">
-                    <img src="assets\images\d_entertain\smart remote.jfif" alt="">
+                    <img src="..\assets\images\d_computer\smart_keybord.jfif" alt="">
                     <div class="box-content">
                         <h4 class="product-name san-serif">Product Name</h4>
                         <p class="product-price text-orange san-serif">PKR 7,500,00</p>
                     </div>
                 </div>
 
+                <div class="image-box">
+                    <img src="..\assets\images\d_computer\smart_watch.jfif" alt="">
+                    <div class="box-content">
+                        <h4 class="product-name san-serif">Product Name</h4>
+                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
+                    </div>
+                </div>
 
                 <div class="image-box">
-                    <img src="assets\images\d_entertain\jeckery.jfif" alt="">
+                    <img src="..\assets\images\d_computer\watch.jfif" alt="">
                     <div class="box-content">
                         <h4 class="product-name san-serif">Product Name</h4>
                         <p class="product-price text-orange san-serif">PKR 7,500,00</p>
@@ -97,7 +104,7 @@
         </section>
     </main>
 
-    <?php include_once "./component/footer.php"; ?>
+    <?php include_once "../include/footer.php"; ?>
 
 
 </body>

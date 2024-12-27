@@ -40,9 +40,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   const images = [
-    './assets/images/index/bannerauto.png',
-    './assets/images/index/computer-bg.png',
-    './assets/images/index/entertainment-bg.png'
+    '../assets/images/banner/bannerauto.png',
+    '../assets/images/banner/computer-bg.png',
+    '../assets/images/banner/entertainment-bg.png'
   ];
 
   const heroSection = document.querySelector('.hero-bg');

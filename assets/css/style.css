@@ -58,7 +58,7 @@
   letter-spacing: 2px;
   text-align: center;
   align-content: center;
-  background-color: rgb(0, 0, 0);
+  background-color: transparent;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 50px;
 }
@@ -75,14 +75,14 @@
   padding: 20px;
 }
 
-.offer {
+.package-container {
   margin: 90px 0;
   gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.offer .box {
+.package-container .box {
   height: auto;
   width: 20%;
   border-radius: 5px;
@@ -93,15 +93,15 @@
   transition: transform 1s ease, opacity 0.9s ease;
 }
 
-.offer .box .icon {
+.package-container .box .icon {
   font-size: 2em;
 }
 
-.offer .box .price {
+.package-container .box .price {
   padding: 20px;
 }
 
-.offer .box .price h3 {
+.package-container .box .price h3 {
   font-weight: 200;
   margin-bottom: 0;
 }

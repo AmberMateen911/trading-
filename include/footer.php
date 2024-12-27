@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets\css\global.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
 
 </head>
 
@@ -14,7 +14,7 @@
         <div class="footer-bg">
             <div class="footer-content  container flex-container">
                 <div id="f-logo">
-                    <img src="assets/images/logo/logo.png" alt="Logo">
+                    <img src="../assets/images/logo/logo.png" alt="Logo">
                 </div>
                 <div class="flex-container footer-options">
                     <ul class="footer-list">
