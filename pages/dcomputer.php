@@ -7,6 +7,7 @@
     <title>D AUTO</title>
    <link rel="stylesheet" href="../assets/css/global.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="..\assets\css\responsive.css">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
 
     <main>
         <section class="dcomputer background ">
-            <div class="product-heading  container flex-container">
+            <div class="hero-content  container flex-container">
                 <h1 class="text-white san-serif heading ">D COMPUTER</h1>
             </div>
         </section>

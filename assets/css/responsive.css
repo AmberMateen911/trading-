@@ -26,22 +26,49 @@
   }
 }
 
-@media (min-width: 300px) and (max-width: 450px){
-  .header{
+@media (min-width: 300px) and (max-width: 450px) {
+  .header {
     padding: 5px;
   }
   .nav-bar {
-      height: 30px;
-      justify-content: center;
-    }
-    .menu .menu-item {
-      padding: 0;
-      margin: 0 2px;
-    }
-    .nav-bar #logo {
-      width: 40px;
-    }
-  
+    height: 30px;
+    justify-content: space-around;
+  }
+  .menu .menu-item {
+    padding: 0;
+    margin: 0 4px;
+  }
+  .nav-bar #logo {
+    width: 40px;
+  }
+}
+
+/*------ALL BACKGROUNDS-----*/
+@media (min-width: 801px) and (max-width: 1050px) {
+  .background {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .background {
+    height: 50vh;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .background {
+    background-size: cover;
+    height: 50vh;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+  .background {
+    background-size: cover;
+    height: 40vh;
+  }
 }
 
 /*-----INDEX PAGE-----*/
@@ -53,10 +80,6 @@
 
 @media (min-width: 801px) and (max-width: 1050px) {
   /*HERO SECTION*/
-  .background {
-    height: 70vh;
-  }
-
   .hero-content {
     padding-left: 8%;
   }
@@ -77,10 +100,6 @@
 
 @media (min-width: 601px) and (max-width: 800px) {
   /*HERO SECTION*/
-  .background {
-    height: 50vh;
-    padding: 10px;
-  }
   .hero-content {
     padding-left: 8%;
   }
@@ -119,11 +138,6 @@
 
 @media (max-width: 600px) {
   /*HERO SECTION*/
-
-  .background {
-    background-size: cover;
-    height: 50vh;
-  }
   .hero-content a h1 {
     margin: 0;
     line-height: 1.3;
@@ -163,24 +177,15 @@
   }
 }
 
-@media (min-width: 300px) and (max-width: 450px) { 
-.background {
-    background-size: cover;
-    height: 40vh;
-  }
-
-/*SUBSCRIPTION*/
-.package-container .box {
+@media (min-width: 300px) and (max-width: 450px) {
+  /*SUBSCRIPTION*/
+  .package-container .box {
     width: 50%;
     padding: 25px 10px;
   }
-/*FOOTER*/
-
-
 }
 
-
-@media (max-width: 299px) {
+/* @media (max-width: 299px) {
   .font-16,
   .font-18,
   .font-28 {
@@ -210,14 +215,154 @@
     width: 80%;
 
   }
-} 
+}  */
 
+/*-----D AUTO-----*/
+@media (min-width: 700px) and (max-width: 870px) {
+  .product-container .image-box {
+    width: 30%;
+  }
 
+  .image-box img {
+    height: 25vh;
+  }
+}
 
+@media (max-width: 700px) {
+  .product-container .image-box {
+    width: 37%;
+  }
+  .image-box img {
+    height: 26vh;
+  }
+}
 
+@media (max-width: 700px) {
+  .product-container .image-box {
+    width: 37%;
+  }
+  .image-box img {
+    height: 26vh;
+  }
+}
 
+@media (max-width: 550px) {
+  .product-container .image-box {
+    width: 40%;
+  }
+  .image-box img {
+    height: 20vh;
+  }
+}
 
+@media (max-width: 430px) {
+  .product-container .image-box {
+    width: 75%;
+  }
+  .image-box img {
+    height: 30vh;
+  }
+}
 
+/*-----CONTACT FORM-----*/
+@media (max-width: 430px) {
+  .contact-form label {
+    display: unset;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 3px;
+    margin-bottom: 10px;
+  }
 
+  .contact-form fieldset {
+    width: 60%;
+    padding-inline: 20px;
+  }
 
+  .contact-form fieldset legend{
+    font-size: 1em;
+  }
+}
 
+/*FOOTER*/
+@media (min-width: 601px) and (max-width: 800px) {
+  .footer-content .footer-list {
+    padding-left: 0;
+    margin: 0 5px;
+  }
+
+  .footer-content #f-logo {
+    align-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  footer .footer-bg {
+    padding: 20px 10px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-content #f-logo {
+    width: 30%;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-options {
+    justify-content: space-around;
+  }
+
+  .footer-list {
+    padding-left: 10px;
+  }
+
+  .copy-rt {
+    flex-direction: column;
+  }
+
+  .copy-rt-list {
+    margin-left: 15px;
+  }
+  .footer-list.no-border {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+  .f-background {
+    padding: 10px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-content .footer-options {
+    flex-direction: column;
+  }
+  .footer-content #f-logo {
+    width: 35%;
+    margin-bottom: 0;
+    align-self: flex-start;
+  }
+
+  .copy-rt {
+    flex-direction: column;
+  }
+
+  .footer-list {
+    border-bottom: 1px solid rgb(112, 111, 111);
+    padding-bottom: 8px;
+  }
+
+  .f-list-items.payment-card {
+    width: 25%;
+  }
+  .no-border {
+    border: none;
+  }
+}

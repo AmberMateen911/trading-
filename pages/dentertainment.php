@@ -7,6 +7,7 @@
     <title>D AUTO</title>
     <link rel="stylesheet" href="../assets/css/global.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="..\assets\css\responsive.css">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
 
     <main>
         <section class="d-entertain background ">
-            <div class="product-heading  container flex-container">
+            <div class="hero-content container flex-container">
                 <h1 class="text-white san-serif heading ">D ENTERTAINMENT</h1>
             </div>
         </section>
@@ -34,14 +35,6 @@
                         <p class="product-price text-orange san-serif">PKR 7,500,00</p>
                     </div>
 
-                </div>
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_entertain\collection.jfif" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
                 </div>
 
                 <div class="image-box">
@@ -84,6 +77,13 @@
                     </div>
                 </div>
 
+                <div class="image-box">
+                    <img src="..\assets\images\d_entertain\jeckery.jfif" alt="">
+                    <div class="box-content">
+                        <h4 class="product-name san-serif">Product Name</h4>
+                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
+                    </div>
+                </div>
 
                 <div class="image-box">
                     <img src="..\assets\images\d_entertain\jeckery.jfif" alt="">

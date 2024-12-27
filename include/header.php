@@ -22,12 +22,12 @@
                 <li class="menu-item"><a href="..\pages\dcomputer.php" class="font-18 san-serif dark-grey">D Computer</a></li>
                 <li class="menu-item"><a href="..\pages\dentertainment.php" class="font-18 san-serif dark-grey">D
                         Entertainment</a></li>
-                <li class="menu-item"><a href="" class="font-18 san-serif dark-grey">Contact</a></li>
+                <li class="menu-item"><a href="..\pages\contact.php" class="font-18 san-serif dark-grey">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <script src="assets\js\style.js"></script>
+    <script src="..\assets\js\style.js"></script>
 
 </body>
 
