@@ -183,9 +183,8 @@ header {
   transform: translateY(0);
 }
 
-
 /*------PRODUCT PAGES-----*/
- h1.heading {
+h1.heading {
   margin-top: 0;
   animation: slideIn 1s ease-in-out;
   animation-duration: 1s;
@@ -227,9 +226,212 @@ header {
   margin-bottom: 0;
 }
 
+/*-----CONTACT FORM-----*/
+.contact-form {
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
 
+.contact-form fieldset {
+  width: 40%;
+  border-style: none;
+  margin: 30px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-inline: 30px;
+  padding-block: 20px;
+}
+.contact-form legend {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact-form label {
+  display: block;
+  text-align: left;
+}
 
-/*FOOTER-WITH-GREY-BACKGROUND*/
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.contact-form input:focus-visible,
+.contact-form textarea:focus-visible {
+  outline: 1px solid grey;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #171717;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-form button:hover {
+  background-color: #ea5b0c;
+}
+
+/*ADD-PRODUCT*/
+
+.add_pro_content {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.add_pro_form {
+  margin: 5em 0;
+  width: 60%;
+}
+
+.add_pro_form label.product_name {
+  display: block;
+}
+
+.add_pro_form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#product_image {
+  border: none;
+}
+
+.add-button {
+  color: #ffffff;
+  background-color: black;
+}
+
+.add-button:hover {
+  background-color: #ea5b0c;
+}
+
+/*SIDE-BAR*/
+
+.dashbord {
+  justify-content: end;
+}
+.dashbord-item {
+  padding: 5px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.dashbord .dashbord-item a:hover {
+  color: rgb(236, 102, 45);
+}
+.admin-header {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.side-bar {
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
+  width: 15%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#side-bar-logo {
+  width: 50%;
+  padding: 15px 5px;
+  margin-top: 3em;
+}
+
+#side-bar-logo img {
+  width: 100%;
+}
+
+.menu-item.side-menu {
+  border-bottom: 1px solid rgb(203, 202, 202);
+}
+
+/*CONTENT AREA*/
+
+.content-area {
+  overflow: hidden;
+  height: 100vh;
+  width: 80%;
+}
+
+/*LOGIN FORM*/
+
+.center-align {
+  justify-content: center;
+  height: 100vh;
+}
+.login-form {
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.login-content {
+  flex-direction: column;
+  margin: 2em 0;
+  width: 90%;
+  border: 1px solid grey;
+  padding: 10px 20px;
+}
+
+.login-content #logo {
+  width: 50%;
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+
+.login-content #logo img {
+  width: 100%;
+}
+
+.login-content label,
+.login-btn,
+.login-content input {
+  display: block;
+  padding: 5px;
+  margin: 2px;
+}
+
+.login-content input {
+  border-radius: none;
+}
+.login-btn {
+  color: #ffffff;
+  background-color: black;
+  margin-top: 2em;
+}
+
+.login-btn:hover {
+  background-color: #ea5b0c;
+}
+
+.cr-text {
+  margin-top: 5em;
+  text-align: center;
+}
+
+/* VIEW PRODUCT */
+.product-list{
+  box-shadow: 0 1px 3px rgba(0,0,0, 0.9);
+  margin-top: 5em;
+  padding: 15px 10px;
+  background-color: white;
+}
+/*FOOTER
+-WITH-GREY-BACKGROUND*/
 
 .footer-bg {
   background-color: rgb(93, 93, 93);
@@ -295,66 +497,10 @@ header {
   transition: all ease-out 0.4s;
 }
 
-.f-list-items{
+.f-list-items {
   margin-left: 10px;
 }
 
 .f-icon {
   padding-right: 5px;
-}
-
-/*-----CONTACT FORM-----*/
- .contact-form{
-  justify-content: center;
-  align-items: center;
- height: 80vh;
-}
-
-.contact-form fieldset {
-  width: 40%;
-  border-style: none;
-  margin: 30px 10px;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding-inline: 30px;
-  padding-block: 20px;
-}
-.contact-form legend{
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.contact-form label {
-  display: block;
-  text-align: left;
-}
-
-.contact-form input, 
-.contact-form textarea {
-  width: 100%; 
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  box-sizing: border-box; 
-  resize: none;
-}
-
-.contact-form input:focus-visible, 
-.contact-form textarea:focus-visible{
-  outline: 1px solid grey;
-} 
-
-.contact-form button {
-  padding: 10px 20px;
-  background-color: #171717;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
-
-.contact-form button:hover {
-  background-color: rgb(234, 91, 12);
 }

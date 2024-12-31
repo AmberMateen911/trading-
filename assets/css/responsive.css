@@ -185,38 +185,6 @@
   }
 }
 
-/* @media (max-width: 299px) {
-  .font-16,
-  .font-18,
-  .font-28 {
-    font-size: 0.4rem;
-  }
-
-  h1 {
-    font-size: 1em;
-  }
-  h2{
-    font-size: 0.6em;
-  }
-  h3{
-    font-size: 0.5em;
-  }
-
-
-  .menu .menu-item {
-    padding: 0;
-    margin: 0;
-}
-  .package-container {
-    flex-direction: column;
-  }
-
-  .box {
-    width: 80%;
-
-  }
-}  */
-
 /*-----D AUTO-----*/
 @media (min-width: 700px) and (max-width: 870px) {
   .product-container .image-box {
@@ -225,15 +193,6 @@
 
   .image-box img {
     height: 25vh;
-  }
-}
-
-@media (max-width: 700px) {
-  .product-container .image-box {
-    width: 37%;
-  }
-  .image-box img {
-    height: 26vh;
   }
 }
 
@@ -269,6 +228,7 @@
   .contact-form label {
     display: unset;
   }
+  
   .contact-form input,
   .contact-form textarea {
     padding: 3px;

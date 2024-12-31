@@ -22,6 +22,10 @@ a {
   display: flex;
 }
 
+button{
+  outline: none;
+  border: none;
+}
 /*EFFECTS*/
 
 @keyframes slideIn {
@@ -35,8 +39,10 @@ a {
   }
 }
 
-
-
+/*FONT STYLE*/
+.bold{
+  font-weight: 600;
+}
 /*FONT FAMILY*/
 .san-serif {
   font-family: sans-serif;
@@ -77,6 +83,10 @@ h2 {
 
 h3 {
   font-size: 3em;
+}
+
+.font-12{
+  font-size: 0.7em;
 }
 .font-16 {
   font-size: 1rem;

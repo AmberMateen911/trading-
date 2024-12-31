@@ -1,3 +1,8 @@
+<?php
+
+include('../database/connection.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,130 +27,37 @@
             </div>
         </section>
 
-        <section class="product-content  container">
+        <section class="product-content  container"  id="product-list">
             <h2 class="san-serif">Insert Your Statement Here.</h2>
             <p class="font-16 san-serif">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat doloribus ea.
             </p>
 
             <div class="product-container flex-container">
-
                 <?php
-                session_start(); // Start the session
-                
-                // Check if a product is stored in the session
-                if (isset($_SESSION['product'])) {
-                    $product = $_SESSION['product'];
-                    echo "<div class='product-container flex-container'>
-            <div class='image-box'>
-                <img src='{$product['image']}' alt='Product Image'>
-                <div class='box-content'>
-                    <h4 class='product-name san-serif'>{$product['name']}</h4>
-                    <p class='product-price text-orange san-serif'>PKR {$product['price']}</p>
-                </div>
-            </div>
-          </div>";
-                } else {
-                    echo "<div style='color: red;'>No product uploaded yet.</div>";
+                $sql = mysqli_query($con, "SELECT * FROM product");
+                while ($row = mysqli_fetch_assoc($sql)) {
+                    ?>
+
+                    <div class="image-box">
+                        <div>
+                            <a href=""><img src="../assets/images/d_auto/<?php echo $row['product_image']; ?>" alt=""></a>
+                        </div>
+                        <div class="box-content">
+                            <h4 class="product-name san-serif">
+                                <?php echo $row['product_name']; ?>
+                            </h4>
+                            <p class="product-price text-orange san-serif">
+                                <?php
+                                // Format the product price with commas
+                                echo 'PKR ' . number_format($row['product_price'], 0, '.', ',');
+                                ?>
+                            </p>
+                        </div>
+                    </div>
+
+                    <?php
                 }
                 ?>
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\city.jfif" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-
-                </div>
-                
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\corolla.jpg" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-                </div>
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\hatch.jfif" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-                </div>
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\honda_city.jpg" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-                </div>
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\land_cruiser.jpg" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-                </div>
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\TC_hybride.jpg" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-                </div>
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\toyota_corolla.jpg" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-                </div>
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\toyota_prado.jpg" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-                </div>
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\toyota.jpg" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-                </div>
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\white_city.jpg" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-                </div>
-
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\city.jfif" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-                </div>
-
-                <div class="image-box">
-                    <img src="..\assets\images\d_auto\corolla.jpg" alt="">
-                    <div class="box-content">
-                        <h4 class="product-name san-serif">Product Name</h4>
-                        <p class="product-price text-orange san-serif">PKR 7,500,00</p>
-                    </div>
-                </div>
 
 
 

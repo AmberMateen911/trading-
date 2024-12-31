@@ -35,7 +35,7 @@
                     <h1 class="san-serif text-white entertain">D ENTERTAINMENT</h1>
                 </a>
                 <div class="view-btn">
-                    <a href="dauto.php" class=" text-white font-16 san-serif">VIEW MORE</a>
+                    <a href="dauto.php #product-list" class=" text-white font-16 san-serif">VIEW MORE</a>
                 </div>
             </div>
         </section>

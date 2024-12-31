@@ -61,9 +61,38 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
-  // call slideshow
+  // CALL SLIDESHOW
   changeBackground();
   setInterval(changeBackground, 10000);
 });
 
+
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuItems = document.querySelectorAll('.menu-item a');
+        const iframe = document.getElementById('content-frame');
+
+        // Load the last visited page from localStorage (if any)
+        const savedPage = localStorage.getItem('iframePage');
+        if (savedPage) {
+            iframe.src = savedPage;
+        }
+
+        // Add click event to each menu item
+        menuItems.forEach(item => {
+            item.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent default link behavior
+
+                // Get the link's href value
+                const pageUrl = this.getAttribute('href');
+
+                // Save the URL to localStorage
+                localStorage.setItem('iframePage', pageUrl);
+
+                // Update the iframe's src to load the page
+                iframe.src = pageUrl;
+            });
+        });
+    });
 
