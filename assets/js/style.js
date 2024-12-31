@@ -39,6 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
+
+  
   const images = [
     '../assets/images/banner/bannerauto.png',
     '../assets/images/banner/computer-bg.png',
@@ -71,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.addEventListener('DOMContentLoaded', () => {
         const menuItems = document.querySelectorAll('.menu-item a');
-        const iframe = document.getElementById('content-frame');
+        const iframe = document.querySelector('#content-frame');
 
         // Load the last visited page from localStorage (if any)
         const savedPage = localStorage.getItem('iframePage');

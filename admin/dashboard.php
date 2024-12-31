@@ -31,13 +31,15 @@
                     <img src="..\assets\images\logo\logo.png" alt="">
                 </div>
                 <ul class="menu">
-                    <li class="menu-item side-menu"><a href="..\admin\add_product.php"
-                            class="font-16 san-serif text-black">Add Product</a></li>
-                    <li class="menu-item side-menu"><a href="..\admin\all_product.php" class="font-16 san-serif text-black">View Product</a>
+                  
+                    <li class="menu-item side-menu"><a href="..\admin\view_product.php" class="font-16 san-serif text-black">View Product</a>
                     </li>
 
                     <li class="menu-item side-menu"><a href="..\admin\add_product.php"
-                            class="font-16 san-serif text-black">Page two</a></li>
+                    class="font-16 san-serif text-black">Add Product</a></li>
+
+                    <li class="menu-item side-menu"><a href="..\admin\add_product.php"
+                            class="font-16 san-serif text-black">Profile</a></li>
                     <li class="menu-item side-menu"><a href="" class="font-16 san-serif text-black">Page three</a></li>
 
 

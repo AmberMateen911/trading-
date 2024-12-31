@@ -13,7 +13,7 @@
 
 <body>
 
-    <div class="container flex-container add_pro_content">
+    <div class="flex-container add_pro_content">
         <h3 class="font-28 san-serif">Add New Product</h3>
     
         <form method="POST" enctype="multipart/form-data" action="" class="add_pro_form">
@@ -23,10 +23,10 @@
                 class="font-16 san-serif"><br><br>
 
             <label for="product_name" class="product_name font-16 san-serif">Product Name:</label>
-            <input type="text" id="product_name" name="product_name" required class="font-16 san-serif"><br><br>
+            <input type="text" id="product_name" name="product_name" required class="font-16 san-serif"><br>
 
             <label for="product_price" class="product_name  font-16 san-serif">Product Price:</label>
-            <input type="text" id="product_price" name="product_price" required class="font-16 san-serif"><br><br>
+            <input type="text" id="product_price" name="product_price" required class="font-16 san-serif"><br>
 
             <input type="submit" name="submit" value="Add Product" class=" font-16 san-serif add-button">
 
